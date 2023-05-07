@@ -268,7 +268,7 @@ header .badges .badge {
 /*VISUAL*/
 .visual {
   margin-top: 120px;
-  background-image: url("../images/ZeldaBOTW-01.jpg");
+  background-image: url("../images/ZeldaBOTW-02.jpg");
   background-position: center;
 }
 .visual .inner {
@@ -276,7 +276,7 @@ header .badges .badge {
 }
 .visual .title {
   position: absolute;
-  top: 40px;
+  top: 10px;
   left: -10px;
 }
 .visual .title .btn {
@@ -286,34 +286,31 @@ header .badges .badge {
 }
 .visual .cup1.image {
   position: absolute;
-  bottom: 0;
-  right: -47px;
+  bottom: 160;
+  right: -200px;
+  opacity: 0.8;
 }
-.visual .cup1.text {
+/* .visual .cup1.text {
   position: absolute;
   top: 40px;
   right: 60px;
-}
+} */
 .visual .cup2.image {
   position: absolute;
-  bottom: 0;
-  right: 162px;
+  bottom: 350;
+  right: 350px;
+  opacity: 0.8;
 }
-.visual .cup2.text {
+/* .visual .cup2.text {
   position: absolute;
   top: 186px;
   right: 412px;
-}
+} */
 .visual .spoon {
   position: absolute;
-  bottom: 0;
-  left: 275px;
-}
-.visual .cup3.image {
-  position: absolute;
-  bottom: 0;
-  left: -10px;
-  width: 350px;
+  bottom: 40;
+  left: -100px;
+  opacity: 0.8;
 }
 .visual .fade-in {
   opacity: 0;
