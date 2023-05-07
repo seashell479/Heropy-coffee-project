@@ -195,7 +195,7 @@ header .main-menu .item .item__name {
 }
 header .main-menu .item:hover .item__name {
   background-color: #2C2A29;
-  color: #EA9926;
+  color: #ede0ca;
   border-radius: 6px 6px 0 0;
 }
 header .main-menu .item .item__contents {
@@ -241,7 +241,7 @@ header .main-menu .item .item__contents .contents__texture h4 {
   font-weight: 900;
 }
 header .main-menu .item .item__contents .contents__texture p {
-  color: #EA9926;
+  color: #00a354;
   margin: 4px 0 14px;
 }
 /* 직접 추가 */
@@ -324,7 +324,7 @@ header .badges .badge {
 .notice .bg-left {
   width: 50%;
   height: 100%;
-  background-color: #333;
+  background-color: #01572c;
   position: absolute;
   top: 0;
   left: 0;
@@ -343,7 +343,7 @@ header .badges .badge {
 }
 .notice .inner__left {
   width: 70%;
-  background-color: #333;
+  background-color: #01572c;
   display: flex;
   align-items: center;
 }
