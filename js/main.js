@@ -19,6 +19,12 @@ searchInputEl.addEventListener('blur', function () {
   searchInputEl.setAttribute('placeholder', '');
 });
 
+// 로딩페이지 함수.
+const asd = document.querySelector("#load");
+
+window.onload = function () {
+  asd.classList.add("zxc");
+}
 
 /**
  * 페이지 스크롤에 따른 요소 제어

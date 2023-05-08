@@ -92,10 +92,33 @@ img {
 .show .back-to-position.delay-2 { transition-delay: .6s; }
 .show .back-to-position.delay-3 { transition-delay: .9s; }
 
+/* loading page */
+#load {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  background: rgb(0, 108, 90);
+  z-index: 99;
+  text-align: center;
+}
+#load > img {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  z-index: 100;
+}
+.zxc {
+  transition: 2s;
+  opacity: 0;
+}
 
 /*HEADER*/
 header {
   width: 100%;
+  height: 15%;
   position: fixed;
   top: 0;
   z-index: 9;
@@ -263,8 +286,6 @@ header .badges .badge {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
-
-
 /*VISUAL*/
 .visual {
   margin-top: 120px;
