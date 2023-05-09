@@ -25,10 +25,10 @@ img {
 .btn {
   width: 130px;
   padding: 10px;
-  border: 2px solid #333;
+  border: 2px solid #e2d39d;
   border-radius: 4px;
   box-sizing: border-box;
-  color: #333;
+  color: #e2d39d;
   font-size: 16px;
   font-weight: 700;
   text-align: center;
@@ -37,11 +37,11 @@ img {
   transition: .4s;
 }
 .btn:hover {
-  background-color: #333;
+  background-color: #e2d39d;
   color: #FFF;
 }
 .btn.btn--reverse {
-  background-color: #333;
+  background-color: #e2d39d;
   color: #FFF;
 }
 .btn.btn--reverse:hover {
@@ -49,12 +49,12 @@ img {
   color: #333;
 }
 .btn.btn--brown {
-  color: #592B18;
-  border-color: #592B18;
+  color: #cbffe9;
+  border-color: #cbffe9;
 }
 .btn.btn--brown:hover {
   color: #FFF;
-  background-color: #592B18;
+  background-color: #007131;
 }
 .btn.btn--gold {
   color: #D9AA8A;
@@ -69,7 +69,7 @@ img {
   border-color: #FFF;
 }
 .btn.btn--white:hover {
-  color: #333;
+  color: #e2d39d;
   background-color: #FFF;
 }
 
@@ -289,8 +289,9 @@ header .badges .badge {
 /*VISUAL*/
 .visual {
   margin-top: 120px;
-  background-image: url("../images/ZeldaBOTW-02.jpg");
+  background-image: url("../images/bnr_bow-2.png");
   background-position: center;
+  /* background-repeat: no-repeat; */
 }
 .visual .inner {
   height: 646px;
@@ -302,13 +303,13 @@ header .badges .badge {
 }
 .visual .title .btn {
   position: absolute;
-  top: 230px;
-  left: 148px;
+  top: 100px;
+  left: 280px;
 }
 .visual .cup1.image {
   position: absolute;
-  bottom: 160;
-  right: -200px;
+  bottom: 0;
+  left: -240px;
   opacity: 0.8;
 }
 /* .visual .cup1.text {
@@ -318,8 +319,8 @@ header .badges .badge {
 } */
 .visual .cup2.image {
   position: absolute;
-  bottom: 350;
-  right: 350px;
+  bottom: 0;
+  left: -100px;
   opacity: 0.8;
 }
 /* .visual .cup2.text {
@@ -329,8 +330,8 @@ header .badges .badge {
 } */
 .visual .spoon {
   position: absolute;
-  bottom: 40;
-  left: -100px;
+  bottom: 0;
+  left: 50px;
   opacity: 0.8;
 }
 .visual .fade-in {
@@ -425,7 +426,7 @@ header .badges .badge {
   background-color: #f6f5ef;
   overflow: hidden;
   position: relative;
-  height: 663px;
+  height: 332px;
   transition: height .4s;
 }
 .promotion.hide {
@@ -475,7 +476,7 @@ header .badges .badge {
   height: 42px;
   border: 2px solid #333;
   border-radius: 50%;
-  top: 300px;
+  top: 160px;
   z-index: 1;
   color: #333;
 }
@@ -519,12 +520,12 @@ header .badges .badge {
   right: 0;
 }
 .rewards .inner {
-  background-image: url("../images/rewards.jpg");
-  height: 241px;
+  background-image: url("../images/젤다의전설킹덤에디션02.png");
+  height: 402px;
 }
 .rewards .btn-group {
   position: absolute;
-  right: 0;
+  right: 20;
   bottom: 24px;
   width: 250px;
   display: flex;
